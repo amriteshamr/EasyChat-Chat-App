@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "155485877224",
+    "firebase_url": "https://easychat-3db77-default-rtdb.firebaseio.com",
+    "project_id": "easychat-3db77",
+    "storage_bucket": "easychat-3db77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155485877224:android:1c9327698a15890fbf2a5d",
+        "android_client_info": {
+          "package_name": "com.example.easychat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOBlSPyQNYt_-xDmRKbsJ_9D2Hyf80IDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
