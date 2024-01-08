@@ -1,5 +1,6 @@
 package com.example.easychat;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,6 +40,20 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.viewholder> {
             holder.username.setText(users.userName);
             holder.userstatus.setText(users.status);
             Picasso.get().load(users.profilepic).into(holder.userimg);
+
+            holder.itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                   Intent intent = new Intent(mainActivity, chatWin.class);
+                   intent.putExtra("nameee", users.getUserName());
+                    intent.putExtra("recImg", users.getProfilepic());
+                    intent.putExtra("uid", users.getUserId());
+                    mainActivity.startActivity(intent);
+                }
+            });
+
+
+
 
     }
 
