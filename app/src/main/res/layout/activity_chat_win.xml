@@ -43,6 +43,7 @@
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/msgAdapter"
         android:layout_width="match_parent"
         android:layout_height="543.00dp"
         android:layout_alignParentTop="true"
@@ -72,6 +73,7 @@
             android:layout_weight="1">
 
             <EditText
+                android:id="@+id/textMsg"
                 android:layout_width="338dp"
                 android:layout_height="45dp"
                 android:layout_marginLeft="@dimen/_10sdp"
@@ -86,6 +88,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/sendbtn"
             android:layout_width="100.50dp"
             android:layout_height="45.50dp"
             android:background="@color/white"
