@@ -5,7 +5,7 @@
 
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/recieverImage"
+        android:id="@+id/pro"
         android:layout_width="@dimen/_25sdp"
         android:layout_height="@dimen/_25sdp"
         android:layout_alignParentLeft="true"
@@ -25,7 +25,7 @@
         android:layout_marginTop="@dimen/_5sdp"
         android:layout_marginEnd="@dimen/_5sdp"
         android:layout_marginBottom="@dimen/_5sdp"
-        android:layout_toRightOf="@id/recieverImage"
+        android:layout_toRightOf="@id/pro"
         android:background="@drawable/reciever_shape"
         android:fontFamily="@font/poppins_regular"
         android:padding="@dimen/_7sdp"

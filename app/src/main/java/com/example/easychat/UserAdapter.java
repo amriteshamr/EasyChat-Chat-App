@@ -46,14 +46,11 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.viewholder> {
                 public void onClick(View view) {
                    Intent intent = new Intent(mainActivity, chatWin.class);
                    intent.putExtra("nameee", users.getUserName());
-                    intent.putExtra("recImg", users.getProfilepic());
-                    intent.putExtra("uid", users.getUserId());
-                    mainActivity.startActivity(intent);
+                   intent.putExtra("recImg", users.getProfilepic());
+                   intent.putExtra("uid", users.getUserId());
+                   mainActivity.startActivity(intent);
                 }
             });
-
-
-
 
     }
 

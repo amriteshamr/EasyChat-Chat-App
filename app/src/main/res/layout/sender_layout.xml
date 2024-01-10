@@ -4,7 +4,7 @@
     android:layout_height="wrap_content">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/senderImage"
+        android:id="@+id/profilerggg"
         android:layout_width="@dimen/_25sdp"
         android:layout_height="@dimen/_25sdp"
         android:src="@drawable/photocamera"
@@ -22,7 +22,7 @@
         android:layout_marginTop="@dimen/_5sdp"
         android:layout_marginEnd="@dimen/_1sdp"
         android:layout_marginBottom="@dimen/_5sdp"
-        android:layout_toLeftOf="@id/senderImage"
+        android:layout_toLeftOf="@id/profilerggg"
         android:background="@drawable/sender_shape"
         android:fontFamily="@font/poppins_regular"
         android:padding="@dimen/_7sdp"
