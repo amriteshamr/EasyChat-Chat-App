@@ -3,7 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/pro"
         android:layout_width="@dimen/_25sdp"
@@ -29,7 +28,7 @@
         android:background="@drawable/reciever_shape"
         android:fontFamily="@font/poppins_regular"
         android:padding="@dimen/_7sdp"
-        android:text="amritesh"
+        android:text="aysuhvish"
         android:textColor="@color/black"
         android:textStyle="bold" />
 
