@@ -57,10 +57,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="237dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="103dp" />
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="189dp" />
 
     <ImageView
         android:layout_width="35dp"

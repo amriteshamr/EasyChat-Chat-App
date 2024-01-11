@@ -1,5 +1,6 @@
 package com.example.easychat;
 
+import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -36,7 +37,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.viewholder> {
     @Override
     public void onBindViewHolder(@NonNull UserAdapter.viewholder holder, int position) {
 
-        Users users = usersArrayList.get(position);
+            Users users = usersArrayList.get(position);
             holder.username.setText(users.userName);
             holder.userstatus.setText(users.status);
             Picasso.get().load(users.profilepic).into(holder.userimg);

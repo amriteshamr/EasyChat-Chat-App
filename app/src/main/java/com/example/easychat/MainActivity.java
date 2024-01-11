@@ -45,6 +45,11 @@ public class MainActivity extends AppCompatActivity {
 
         usersArrayList = new ArrayList<>();
 
+        mainUserRecyclerView = findViewById(R.id.mainUserRecyclerView);
+        mainUserRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        adapter = new UserAdapter(MainActivity.this,usersArrayList);
+        mainUserRecyclerView.setAdapter(adapter);
+
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
